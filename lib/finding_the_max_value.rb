@@ -11,7 +11,7 @@ def find_max_value(array)
     else
       compare_var += 1
       puts "in the else statement"
-      #puts array[compare_var] + ",blah blah "+ array[index]
+      puts array[compare_var] #+ ",blah blah "+ array[index]
     end
   end
 
