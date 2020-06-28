@@ -6,12 +6,12 @@ def find_max_value(array)
   array.size.times do
     if array[compare_var] < array[index]
       index += 1
-      puts array[compare_vary] + ",blah blah "+ array[index]
+      puts array[compare_var] + ",blah blah "+ array[index]
 
     else
       compare_var += 1
       puts "in the else statement"
-      puts array[compare_vary] + ",blah blah "+ array[index]
+      puts array[compare_var] + ",blah blah "+ array[index]
     end
   end
 
