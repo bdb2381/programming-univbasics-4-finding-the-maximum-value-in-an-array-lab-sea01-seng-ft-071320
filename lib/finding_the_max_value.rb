@@ -10,6 +10,7 @@ def find_max_value(array)
 
     else
       compare_var += 1
+      puts "in the else statement"
     end
   end
 
