@@ -8,8 +8,9 @@ def find_max_value(array)
       index += 1
     end
 
-    else compare_var += 1
-    end 
+    else
+      compare_var += 1
+    end
   end
 
 end
