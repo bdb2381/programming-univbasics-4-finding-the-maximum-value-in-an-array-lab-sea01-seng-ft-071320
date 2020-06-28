@@ -6,7 +6,7 @@ def find_max_value(array)
   array.size.times do
     if array[compare_var] >= array[index]
       index += 1
-    
+
 
     else
       compare_var += 1
@@ -24,10 +24,3 @@ end
      compare_var stays the same
    else compare_var needs increased by one index
 =end
-
-
-
-
-
-
-
