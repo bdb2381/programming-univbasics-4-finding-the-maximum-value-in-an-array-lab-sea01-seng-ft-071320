@@ -9,7 +9,8 @@ def find_max_value(array)
     end
 
     else compare_var += 1
-  end   
+    end 
+  end
 
 end
 
