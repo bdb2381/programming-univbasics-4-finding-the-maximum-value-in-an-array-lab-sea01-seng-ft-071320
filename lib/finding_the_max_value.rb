@@ -4,7 +4,7 @@ def find_max_value(array)
 
 
   array.size.times do
-    if array[compare_var] >= array[index]
+    if array[compare_var] == array[index]
       index += 1
 
 
