@@ -10,10 +10,8 @@ def find_max_value(array)
       puts "in if, compare_var value is #{compare_var} and index value is #{array[index]}"
     end
     index += 1
-
-
   end
-
+  compare_var
 end
 
 
