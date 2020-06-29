@@ -5,14 +5,12 @@ def find_max_value(array)
 
   array.size.times do
     puts "loop #{index} and compare_var value is #{array[compare_var]} and index value is #{array[index]} "
-    if array[compare_var] >= array[index]
-      index += 1
-      puts "in if, compare_var value is #{array[compare_var]} and index value is #{array[index]}"
-
-    else
-      compare_var += 1
-      puts "in the else statement #{array[compare_var]}"
-
+    if compare_var < array[index]
+      compare_var = array[index]
+      puts "in if, compare_var value is #{compare_var} and index value is #{array[index]}"
+    end 
+    index += 1
+      
     end
   end
 
