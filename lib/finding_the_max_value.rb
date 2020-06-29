@@ -2,7 +2,7 @@ def find_max_value(array)
   index = 0
   compare_var = 0
 
-
+  put array
   array.size.times do
     puts "loop #{index} and compare_var value is #{compare_var} and index value is #{array[index]} "
     if compare_var < array[index]
