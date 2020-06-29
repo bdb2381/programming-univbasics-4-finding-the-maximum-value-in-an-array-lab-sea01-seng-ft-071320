@@ -11,7 +11,7 @@ def find_max_value(array)
     end
     index += 1
   end
-  compare_var
+  return compare_var
 end
 
 
