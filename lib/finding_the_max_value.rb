@@ -7,7 +7,7 @@ def find_max_value(array)
     puts "loop #{index} and compare_var value is #{compare_var} and index value is #{array[index]} "
     if compare_var < array[index]
       compare_var = array[index]
-      puts "in if, compare_var value is #{compare_var} and index value is #{array[index]}"
+      puts "in if, compare_var value is #{compare_var} and index position #{index} value is #{array[index]}"
     end
     index += 1
   end
